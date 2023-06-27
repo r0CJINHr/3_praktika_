@@ -1,0 +1,78 @@
+* {
+  margin: 10px;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui;
+  color: #a44633;
+  background-color: #f0eded;
+  min-height: 100vh;
+  /* 
+  display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 400px;
+}
+
+.btn {
+  border: none;
+  margin-right: 5rem;
+  font-size: 2rem;
+  padding: 2rem 5rem;
+  border-radius: 0.7rem;
+  color: white;
+  background-color: rgb(216, 11, 11);
+  cursor: pointer;
+  box-shadow: 0 2rem 5rem 1rem rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: center;
+  width: 1000px;
+}
+input {
+  display: inline-block;
+  width: 400px;
+  height: 20px;
+  margin: 20px;
+}
+.prazdnik {
+  width: 100%;
+  text-align: center;
+}
+
+.knopka {
+  font-size: 15px;
+  color: #ffffff !important;
+  text-shadow: 1px 1px 1px #272625;
+  padding: 15px 25px;
+  border-radius: 8px;
+  border: 2px hidden #f3c846;
+  background: #9e220a;
+  background: linear-gradient(to top, #9e220a, #f66d52);
+}
+.knopka:hover {
+  color: #cccccc !important;
+  background: #f66d52;
+  background: linear-gradient(to top, #f66d52, #9e220a);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.picture {
+  border: 3px;
+  border-color: #272625;
+}
+
+.post {
+  border: 3px;
+  border-color: #272625;
+}
