@@ -63,16 +63,37 @@ input {
   background: linear-gradient(to top, #f66d52, #9e220a);
 }
 
-ul {
-  list-style-type: none;
+.post {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #eee365;
+  border-radius: 2%;
+}
+
+.header {
+  width: 520px;
+}
+
+.baton {
+  align-self: center;
+  width: 200px;
+  outline: none;
+  height: 100px;
+}
+button,
+button:active,
+button:focus {
+  border: none;
+}
+
+.price {
+  align-self: center;
 }
 
 .picture {
-  border: 3px;
-  border-color: #272625;
+  align-self: center;
 }
 
-.post {
-  border: 3px;
-  border-color: #272625;
+.uaraa {
+  padding-left: 10 px;
 }
